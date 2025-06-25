@@ -1,40 +1,47 @@
-# 📊 Task 2: Data Visualization and Storytelling
+📊 Task 2: Data Visualization and Storytelling
 Tool Used: Power BI  
 Dataset: Sample - Superstore.csv
 
 🎯 Objective
-To create an interactive and insightful dashboard using Power BI that conveys a compelling business story based on sales data.
+Create a business-ready Power BI dashboard to analyze and present insights from Superstore sales data using visual storytelling techniques. 
+This includes key KPIs, profit analysis, customer trends, and regional performance using interactive elements like slicers and page navigation buttons.
 
 📁 Dataset Overview
-The dataset includes sales records from a fictional retail store.
+The dataset contains historical sales transactions for a fictional retail Superstore. It includes details such as:
+- Customer demographics
+- Product categories and sub-categories
+- Sales and profit metrics
+- Geographical distribution (Region, State)
+- Shipping modes and order dates
 
-Fields: Order Date, Sales, Profit, Discount, Category, Region, State, Segment, Customer Name, Ship Mode, etc.
+📊 Dashboard Features:
 
-Purpose: Analyze sales performance, profitability, and customer trends across various dimensions.
+✅ Page 1: Executive Overview
+- KPIs: Total Sales, Total Profit, Total Orders, Profit Margin
+- Line Chart: Monthly Sales Trend
+- Map: Profit by State
+- Bar Charts: Sales & Profit by Category
+- Pie Chart: Orders by Ship Mode
+- Navigation Button: Go to Details Page
 
+✅ Page 2: Customer & Segment Insights
+- Table with Conditional Formatting: Profit margin by customer
+- Scatter Plot: Sales vs Profit
+- Segment vs Region Analysis 
+- Discount vs Profit Trend 
+- Back to Overview Button
 
-📊 Visualizations Created
+🧠 DAX Measures Used
+DAX
+Profit Margin = DIVIDE(SUM('Orders'[Profit]), SUM('Orders'[Sales]), 0)
+Order Count = DISTINCTCOUNT('Orders'[Order ID])
 
- Chart Title :- Insight 
- 📈 Monthly Sales Trend :- Understand seasonal sales patterns 
- 
- 🗂️ Sales & Profit by Category :- Identify high-performing categories 
- 
- 🗺️ Profit by State :- Spot profitable and loss-making regions 
- 
- 👤 Top 10 Customers by Sales :-Focus on key revenue generators
- 
- 🌍 Segment vs Region Analysis :- Compare performance across markets 
- 
- 🚚 Shipping Mode Analysis :- Understand delivery preferences ....
- 
-
-🧠 Key Insights
-- 📌 Technology leads in sales but shows variable profit margins.
-- 🧭 West region is the top performer; Central has several loss-making states.
-- 🚛 Most orders use Standard Class shipping.
-- 🧑‍💼 Corporate segment shows strong results in East and West.
-- 🔝 A small group of customers contributes significantly to total revenue.
-
-
+📌 Key Insights
+- Technology category leads in sales but has varying profit margins.
+- West region performs best overall; Central has loss-making states.
+- Corporate segment generates the highest sales.
+- Top 10 customers contribute significantly to total revenue.
+- Standard Class is the most used shipping method.
+- Sales spike in Q4, suggesting a seasonal pattern.
+  
 
