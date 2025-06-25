@@ -6,8 +6,10 @@ Dataset: Sample - Superstore.csv
 To create an interactive and insightful dashboard using Power BI that conveys a compelling business story based on sales data.
 
 📁 Dataset Overview
-The dataset includes sales records from a fictional retail store:
+The dataset includes sales records from a fictional retail store.
+
 Fields: Order Date, Sales, Profit, Discount, Category, Region, State, Segment, Customer Name, Ship Mode, etc.
+
 Purpose: Analyze sales performance, profitability, and customer trends across various dimensions.
 
 📊 Visualizations Created
