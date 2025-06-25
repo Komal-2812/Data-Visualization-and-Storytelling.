@@ -12,6 +12,7 @@ Fields: Order Date, Sales, Profit, Discount, Category, Region, State, Segment, C
 
 Purpose: Analyze sales performance, profitability, and customer trends across various dimensions.
 
+
 📊 Visualizations Created
 
  Chart Title :- Insight 
@@ -25,7 +26,8 @@ Purpose: Analyze sales performance, profitability, and customer trends across va
  
  🌍 Segment vs Region Analysis :- Compare performance across markets 
  
- 🚚 Shipping Mode Analysis :- Understand delivery preferences 
+ 🚚 Shipping Mode Analysis :- Understand delivery preferences ....
+ 
 
 🧠 Key Insights
 - 📌 Technology leads in sales but shows variable profit margins.
