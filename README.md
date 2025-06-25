@@ -16,10 +16,15 @@ Purpose: Analyze sales performance, profitability, and customer trends across va
 
  Chart Title :- Insight 
  📈 Monthly Sales Trend :- Understand seasonal sales patterns 
+ 
  🗂️ Sales & Profit by Category :- Identify high-performing categories 
+ 
  🗺️ Profit by State :- Spot profitable and loss-making regions 
- 👤 Top 10 Customers by Sales :-Focus on key revenue generators 
+ 
+ 👤 Top 10 Customers by Sales :-Focus on key revenue generators
+ 
  🌍 Segment vs Region Analysis :- Compare performance across markets 
+ 
  🚚 Shipping Mode Analysis :- Understand delivery preferences 
 
 🧠 Key Insights
